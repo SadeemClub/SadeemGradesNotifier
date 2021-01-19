@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Sadeem</class>
+ <widget class="QDialog" name="Sadeem">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>849</width>
+    <height>525</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="autoFillBackground">
+   <bool>false</bool>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <property name="color" stdset="0">
+   <color>
+    <red>102</red>
+    <green>102</green>
+    <blue>102</blue>
+   </color>
+  </property>
+  <widget class="QWidget" name="horizontalLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>-10</x>
+     <y>0</y>
+     <width>871</width>
+     <height>541</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <item>
+     <widget class="QWidget" name="widget" native="true">
+      <property name="styleSheet">
+       <string notr="true">background-color:#f2f2f2;</string>
+      </property>
+      <widget class="QPushButton" name="PB_logout">
+       <property name="geometry">
+        <rect>
+         <x>688</x>
+         <y>440</y>
+         <width>131</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="minimumSize">
+        <size>
+         <width>80</width>
+         <height>0</height>
+        </size>
+       </property>
+       <property name="font">
+        <font>
+         <family>Roboto Medium</family>
+         <pointsize>18</pointsize>
+         <weight>50</weight>
+         <italic>false</italic>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+color:white;
+border-radius:10px;
+/*border: 2px solid black;*/
+background:#7567fd;
+}
+QPushButton:hover:!pressed
+{
+color:#7567fd;
+background:#f2f2f2;
+border: 1px solid black;
+}
+</string>
+       </property>
+       <property name="text">
+        <string>Log out</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="PB_Refresh">
+       <property name="geometry">
+        <rect>
+         <x>688</x>
+         <y>383</y>
+         <width>131</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="minimumSize">
+        <size>
+         <width>80</width>
+         <height>0</height>
+        </size>
+       </property>
+       <property name="font">
+        <font>
+         <family>Roboto Medium</family>
+         <pointsize>18</pointsize>
+         <weight>50</weight>
+         <italic>false</italic>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+color:white;
+border-radius:10px;
+/*border: 2px solid black;*/
+background:#7567fd;
+}
+QPushButton:hover:!pressed
+{
+color:#7567fd;
+background:#f2f2f2;
+border: 1px solid black;
+}
+</string>
+       </property>
+       <property name="text">
+        <string>Refresh</string>
+       </property>
+       <property name="checkable">
+        <bool>false</bool>
+       </property>
+       <property name="default">
+        <bool>false</bool>
+       </property>
+       <property name="flat">
+        <bool>false</bool>
+       </property>
+      </widget>
+      <widget class="QTableView" name="table">
+       <property name="geometry">
+        <rect>
+         <x>48</x>
+         <y>41</y>
+         <width>601</width>
+         <height>441</height>
+        </rect>
+       </property>
+       <property name="baseSize">
+        <size>
+         <width>0</width>
+         <height>0</height>
+        </size>
+       </property>
+      </widget>
+      <widget class="QLabel" name="l_logo">
+       <property name="geometry">
+        <rect>
+         <x>710</x>
+         <y>100</y>
+         <width>86</width>
+         <height>223</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true"/>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="pixmap">
+        <pixmap>image/logo.svg</pixmap>
+       </property>
+       <property name="scaledContents">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
